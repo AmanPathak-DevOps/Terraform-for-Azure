@@ -7,3 +7,12 @@ variable "location" {
 variable "storage_name" {
   default = "withdueterraform"
 }
+variable "container_name" {
+    default = "website"
+}
+variable "blob_name" {
+    default = "index.html"
+}
+variable "source_file" {
+    default = "index.html"
+}
