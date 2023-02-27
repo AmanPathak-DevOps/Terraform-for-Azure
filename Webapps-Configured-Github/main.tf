@@ -32,7 +32,7 @@ resource "azurerm_app_service" "app_service" {
   }
 
   source_control {
-    repo_url           = "https://github.com/alashro/webapp"
+    repo_url           = "  webapp"
     branch             = "master"
     manual_integration = true
     use_mercurial      = false
